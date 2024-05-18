@@ -1,9 +1,95 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1ac9991c071458a42a12650ccf5ec9ba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
+=======
+guid: 2e144abe0a219304e8bbba98d11eab3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -57530561230407314
+    second: warped_roots2_0
+  - first:
+      213: 1990773566400535754
+    second: warped_roots2_1
+  - first:
+      213: -4989157125959440318
+    second: warped_roots2_2
+  - first:
+      213: 1979204502252569102
+    second: warped_roots2_3
+  - first:
+      213: -2880164488283131480
+    second: warped_roots2_4
+  - first:
+      213: -3072601560025536156
+    second: warped_roots2_5
+  - first:
+      213: 8331831000168911497
+    second: warped_roots2_6
+  - first:
+      213: 2886895991320175116
+    second: warped_roots2_7
+  - first:
+      213: -5898519570498422000
+    second: warped_roots2_8
+  - first:
+      213: 7583069887546585514
+    second: warped_roots2_9
+  - first:
+      213: 4070359484508201528
+    second: warped_roots2_10
+  - first:
+      213: 4861683103460115180
+    second: warped_roots2_11
+  - first:
+      213: 3717539282589962314
+    second: warped_roots2_12
+  - first:
+      213: -7645794941085528329
+    second: warped_roots2_13
+  - first:
+      213: -3855279884260793905
+    second: warped_roots2_14
+  - first:
+      213: 2576125315357957800
+    second: warped_roots2_15
+  - first:
+      213: -148680473547399098
+    second: warped_roots2_16
+  - first:
+      213: 688780165305832025
+    second: warped_roots2_17
+  - first:
+      213: -5745488684279912874
+    second: warped_roots2_18
+  - first:
+      213: 718432140591684400
+    second: warped_roots2_19
+  - first:
+      213: 6236233086839933131
+    second: warped_roots2_20
+  - first:
+      213: -9184711315255009490
+    second: warped_roots2_21
+  - first:
+      213: -2216580585000743562
+    second: warped_roots2_22
+  - first:
+      213: -6134007857074528449
+    second: warped_roots2_23
+  - first:
+      213: 7199090342854275574
+    second: warped_roots2_24
+  - first:
+      213: 4382735453304943048
+    second: warped_roots2_25
+  externalObjects: {}
+  serializedVersion: 13
+>>>>>>> 999dfce51bbd8e587a6b51160c9b4bbf3ef44def
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +129,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> 999dfce51bbd8e587a6b51160c9b4bbf3ef44def
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -81,6 +171,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,6 +185,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+>>>>>>> 999dfce51bbd8e587a6b51160c9b4bbf3ef44def
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -107,7 +200,24 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: Server
+=======
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+>>>>>>> 999dfce51bbd8e587a6b51160c9b4bbf3ef44def
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -121,11 +231,565 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+=======
+    sprites:
+    - serializedVersion: 2
+      name: warped_roots2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69f126624c933ff0800000000000000
+      internalID: -57530561230407314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 191
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc9a85d206a0ab10800000000000000
+      internalID: 1990773566400535754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24824921704f2cab0800000000000000
+      internalID: -4989157125959440318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 175
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e024e9e220c877b10800000000000000
+      internalID: 1979204502252569102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1703d58a99708d0800000000000000
+      internalID: -2880164488283131480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 159
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469ed56192deb55d0800000000000000
+      internalID: -3072601560025536156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982d7a5962c90a370800000000000000
+      internalID: 8331831000168911497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 143
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c026322db90501820800000000000000
+      internalID: 2886895991320175116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b70cbc3bf342ea0800000000000000
+      internalID: -5898519570498422000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1fc2ac2e97c3960800000000000000
+      internalID: 7583069887546585514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832e04ea262dc7830800000000000000
+      internalID: 4070359484508201528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 111
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce24248360b287340800000000000000
+      internalID: 4861683103460115180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40d559f74a579330800000000000000
+      internalID: 3717539282589962314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe4e1f920ea4e590800000000000000
+      internalID: -7645794941085528329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc12de41f5b4f7ac0800000000000000
+      internalID: -3855279884260793905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 79
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae5dce435c30c320800000000000000
+      internalID: 2576125315357957800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640ab25a5e7cfedf0800000000000000
+      internalID: -148680473547399098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952936939e90f8900800000000000000
+      internalID: 688780165305832025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65628788b7ce340b0800000000000000
+      internalID: -5745488684279912874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bd037b93268f900800000000000000
+      internalID: 718432140591684400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8c1a593fc8b8650800000000000000
+      internalID: 6236233086839933131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 31
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fd6b1b8b9598080800000000000000
+      internalID: -9184711315255009490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dc00fa3bf1d31e0800000000000000
+      internalID: -2216580585000743562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f1e957a50afdaa0800000000000000
+      internalID: -6134007857074528449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f136cf368e48e360800000000000000
+      internalID: 7199090342854275574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warped_roots2_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c170ce8caa92dc30800000000000000
+      internalID: 4382735453304943048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+>>>>>>> 999dfce51bbd8e587a6b51160c9b4bbf3ef44def
     internalID: 0
     vertices: []
     indices: 
