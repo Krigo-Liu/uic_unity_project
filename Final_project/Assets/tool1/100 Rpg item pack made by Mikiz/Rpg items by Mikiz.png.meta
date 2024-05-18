@@ -249,7 +249,7 @@ TextureImporter:
       213: 2509563127356658346
     second: Rpg items by Mikiz_81
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -354,6 +354,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2100,7 +2126,89 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rpg items by Mikiz_0: -7309598474246334697
+      Rpg items by Mikiz_1: 3677552561962599085
+      Rpg items by Mikiz_10: -4879061874609178017
+      Rpg items by Mikiz_11: -8400100554171702573
+      Rpg items by Mikiz_12: -6961107550560042992
+      Rpg items by Mikiz_13: 3033333276935898593
+      Rpg items by Mikiz_14: 5689073636233158803
+      Rpg items by Mikiz_15: 5055572626368776684
+      Rpg items by Mikiz_16: 1400332789318198936
+      Rpg items by Mikiz_17: 2776865673764535583
+      Rpg items by Mikiz_18: -2084393467292691816
+      Rpg items by Mikiz_19: -8805854411496788177
+      Rpg items by Mikiz_2: -6465936585462734985
+      Rpg items by Mikiz_20: -3359837177943913169
+      Rpg items by Mikiz_21: -7417485428140557695
+      Rpg items by Mikiz_22: 4264495493547324769
+      Rpg items by Mikiz_23: -8122219370916258717
+      Rpg items by Mikiz_24: 3531941867683633661
+      Rpg items by Mikiz_25: -5381781012160339096
+      Rpg items by Mikiz_26: -5759347023528447696
+      Rpg items by Mikiz_27: -1569933393393104029
+      Rpg items by Mikiz_28: -1875782210151310217
+      Rpg items by Mikiz_29: -9039716863400047147
+      Rpg items by Mikiz_3: -7914173656061371767
+      Rpg items by Mikiz_30: -3614966203691041757
+      Rpg items by Mikiz_31: 3674707457184596164
+      Rpg items by Mikiz_32: 3142676806773620873
+      Rpg items by Mikiz_33: -3623814368772756599
+      Rpg items by Mikiz_34: -1591448546036592282
+      Rpg items by Mikiz_35: 4572351947407646059
+      Rpg items by Mikiz_36: -8791887049210872656
+      Rpg items by Mikiz_37: -6300644698587659777
+      Rpg items by Mikiz_38: 906858739122260123
+      Rpg items by Mikiz_39: -1560897360578714429
+      Rpg items by Mikiz_4: 6013411161405239608
+      Rpg items by Mikiz_40: -956165084349223888
+      Rpg items by Mikiz_41: 8046458075113370707
+      Rpg items by Mikiz_42: 38547891237504803
+      Rpg items by Mikiz_43: -6868924514370079742
+      Rpg items by Mikiz_44: 4146781765417278649
+      Rpg items by Mikiz_45: -807812751044731468
+      Rpg items by Mikiz_46: -403635967516327197
+      Rpg items by Mikiz_47: -1198946399577271762
+      Rpg items by Mikiz_48: -2276513406016197571
+      Rpg items by Mikiz_49: 8265147964485941752
+      Rpg items by Mikiz_5: -8053909467718885793
+      Rpg items by Mikiz_50: 2939939036252301356
+      Rpg items by Mikiz_51: 4566910554385655246
+      Rpg items by Mikiz_52: -6588638072256631876
+      Rpg items by Mikiz_53: -1660903405694680443
+      Rpg items by Mikiz_54: 2408126566766488223
+      Rpg items by Mikiz_55: 7923869720594110571
+      Rpg items by Mikiz_56: 4084318141798703691
+      Rpg items by Mikiz_57: 6297346948621688221
+      Rpg items by Mikiz_58: -8592214693088816774
+      Rpg items by Mikiz_59: -5645458836501346678
+      Rpg items by Mikiz_6: 4365789658952885431
+      Rpg items by Mikiz_60: 6596918913028401177
+      Rpg items by Mikiz_61: 739659166333471297
+      Rpg items by Mikiz_62: -1521554240850663866
+      Rpg items by Mikiz_63: -2545806637485126525
+      Rpg items by Mikiz_64: 3915818663699952985
+      Rpg items by Mikiz_65: -4238233922104510638
+      Rpg items by Mikiz_66: -8714197477702361551
+      Rpg items by Mikiz_67: -3938473796066219036
+      Rpg items by Mikiz_68: 5826385296369134177
+      Rpg items by Mikiz_69: 5285930565020658928
+      Rpg items by Mikiz_7: 6595740501057356105
+      Rpg items by Mikiz_70: -265302349339313730
+      Rpg items by Mikiz_71: -6351855562645558737
+      Rpg items by Mikiz_72: -4132521181943519114
+      Rpg items by Mikiz_73: -6020433255574787168
+      Rpg items by Mikiz_74: 3602815157986455263
+      Rpg items by Mikiz_75: -5614910357550524839
+      Rpg items by Mikiz_76: -1787884786315658775
+      Rpg items by Mikiz_77: 4112901791782342077
+      Rpg items by Mikiz_78: -2066287464899141753
+      Rpg items by Mikiz_79: -1567681209931706527
+      Rpg items by Mikiz_8: -9046268687387708912
+      Rpg items by Mikiz_80: 7267671733829836612
+      Rpg items by Mikiz_81: 2509563127356658346
+      Rpg items by Mikiz_9: -5818125504415961003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

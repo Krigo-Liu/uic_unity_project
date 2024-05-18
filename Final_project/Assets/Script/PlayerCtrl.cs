@@ -51,7 +51,7 @@ public class PlayerCtrl : MonoBehaviour
         {
             if (jumpTimes <2)
             {
-                anim.SetInteger("state", 2);
+                //anim.SetInteger("state", 2);
                 AudioCtrl.instance.PlayerJump(transform.position);
                 Jump();
                 jumpTimes++;
@@ -61,13 +61,13 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            FireBullet();
+            //FireBullet();
         }
 
 
         if (rb.velocity.y < -1)
         {
-            anim.SetInteger("state", 3);
+            //anim.SetInteger("state", 3);
         }
 
         if (leftPressed)
@@ -94,7 +94,7 @@ public class PlayerCtrl : MonoBehaviour
         }
         if (jumpTimes == 0)
         {
-            anim.SetInteger("state", 1);
+            //anim.SetInteger("state", 1);
         }
 
 
@@ -105,7 +105,7 @@ public class PlayerCtrl : MonoBehaviour
         rb.velocity = new Vector2(0, rb.velocity.y);
         if(jumpTimes == 0)
         {
-            anim.SetInteger("state", 0);
+            //anim.SetInteger("state", 0);
         }
     }
     public void Jump()
@@ -143,7 +143,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
-            anim.SetInteger("state", 0);
+            //anim.SetInteger("state", 0);
             jumpTimes = 0;
             Debug.Log("on the ground");
         }

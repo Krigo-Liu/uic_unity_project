@@ -30,7 +30,7 @@ TextureImporter:
       213: 3766787297001769182
     second: Desert 320x125 SpriteSheet_8
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -135,6 +135,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -348,7 +374,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert 320x125 SpriteSheet_0: 6388519867278829212
+      Desert 320x125 SpriteSheet_1: 3083676143942640040
+      Desert 320x125 SpriteSheet_2: 6240384279011196579
+      Desert 320x125 SpriteSheet_3: 7654592106448199845
+      Desert 320x125 SpriteSheet_4: 2442288118264757393
+      Desert 320x125 SpriteSheet_5: -5793821853055775953
+      Desert 320x125 SpriteSheet_6: 532813292741628598
+      Desert 320x125 SpriteSheet_7: 7963366794656294528
+      Desert 320x125 SpriteSheet_8: 3766787297001769182
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

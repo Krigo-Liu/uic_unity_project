@@ -129,7 +129,7 @@ TextureImporter:
       213: -8705708956496441960
     second: Miner_AllAnimations_SpriteSheet_41
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -234,6 +234,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1140,7 +1166,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Miner_AllAnimations_SpriteSheet_0: 4775869602431493108
+      Miner_AllAnimations_SpriteSheet_1: 5012008378599656763
+      Miner_AllAnimations_SpriteSheet_10: -1605986307409598909
+      Miner_AllAnimations_SpriteSheet_11: -3311709304992738602
+      Miner_AllAnimations_SpriteSheet_12: -5586824314809437607
+      Miner_AllAnimations_SpriteSheet_13: -4089636911827695374
+      Miner_AllAnimations_SpriteSheet_14: 4240600938103001564
+      Miner_AllAnimations_SpriteSheet_15: -4935602651297656302
+      Miner_AllAnimations_SpriteSheet_16: 3316860017318030018
+      Miner_AllAnimations_SpriteSheet_17: 8801735482155816034
+      Miner_AllAnimations_SpriteSheet_18: 8183263253524934217
+      Miner_AllAnimations_SpriteSheet_19: -845005194188594352
+      Miner_AllAnimations_SpriteSheet_2: -2435123744752152100
+      Miner_AllAnimations_SpriteSheet_20: 7868426028764744692
+      Miner_AllAnimations_SpriteSheet_21: 209265001576649722
+      Miner_AllAnimations_SpriteSheet_22: 3304689502082485083
+      Miner_AllAnimations_SpriteSheet_23: -1788880006628649647
+      Miner_AllAnimations_SpriteSheet_24: -5148893999687147418
+      Miner_AllAnimations_SpriteSheet_25: 8047065818846752134
+      Miner_AllAnimations_SpriteSheet_26: 8302655546322515741
+      Miner_AllAnimations_SpriteSheet_27: -3713845129577442815
+      Miner_AllAnimations_SpriteSheet_28: -7184835445943874500
+      Miner_AllAnimations_SpriteSheet_29: -7468935069157533936
+      Miner_AllAnimations_SpriteSheet_3: -2520077835877367133
+      Miner_AllAnimations_SpriteSheet_30: -5488428272962305016
+      Miner_AllAnimations_SpriteSheet_31: -8228384126904856452
+      Miner_AllAnimations_SpriteSheet_32: 6527074387508042330
+      Miner_AllAnimations_SpriteSheet_33: 3814719473011564095
+      Miner_AllAnimations_SpriteSheet_34: 8164785483275475717
+      Miner_AllAnimations_SpriteSheet_35: -8871599505766843562
+      Miner_AllAnimations_SpriteSheet_36: 5158480626088703273
+      Miner_AllAnimations_SpriteSheet_37: -4044638121205581500
+      Miner_AllAnimations_SpriteSheet_38: -7738392533140817824
+      Miner_AllAnimations_SpriteSheet_39: 7714120616793446155
+      Miner_AllAnimations_SpriteSheet_4: -3576573648937921476
+      Miner_AllAnimations_SpriteSheet_40: 6638576716653132950
+      Miner_AllAnimations_SpriteSheet_41: -8705708956496441960
+      Miner_AllAnimations_SpriteSheet_5: -4600492837342691836
+      Miner_AllAnimations_SpriteSheet_6: -1458915288993858631
+      Miner_AllAnimations_SpriteSheet_7: 8243135861936801162
+      Miner_AllAnimations_SpriteSheet_8: -8979595329345723098
+      Miner_AllAnimations_SpriteSheet_9: -1651327292590019463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
