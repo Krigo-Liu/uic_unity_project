@@ -96,7 +96,7 @@ TextureImporter:
       213: -8357104391960572901
     second: fire_0_30
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -201,6 +201,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -876,7 +902,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fire_0_0: -7740180431983158115
+      fire_0_1: 50365698126055034
+      fire_0_10: 1764491718540115771
+      fire_0_11: -3703383272171535243
+      fire_0_12: 8755150847115482934
+      fire_0_13: 8740084905455233715
+      fire_0_14: -5610121618357836041
+      fire_0_15: -6255360365341142096
+      fire_0_16: 3136769985027739488
+      fire_0_17: 2715628413798774362
+      fire_0_18: -3364137761334193473
+      fire_0_19: 7078137189681973840
+      fire_0_2: -1205891834868551200
+      fire_0_20: -1405314075085414355
+      fire_0_21: -4055406810383216156
+      fire_0_22: 7020169258712421012
+      fire_0_23: 1412742106856753109
+      fire_0_24: 4086008692993333188
+      fire_0_25: -8610353312858169745
+      fire_0_26: -7790753544804754417
+      fire_0_27: 4838145058583755403
+      fire_0_28: -1153911296805516144
+      fire_0_29: -6689213944637884209
+      fire_0_3: 8659906294658676461
+      fire_0_30: -8357104391960572901
+      fire_0_4: -6887999471342963684
+      fire_0_5: -774631331570109053
+      fire_0_6: 2089671077669908470
+      fire_0_7: 7187568641450269897
+      fire_0_8: 7836362033545002946
+      fire_0_9: 3355945578652379762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

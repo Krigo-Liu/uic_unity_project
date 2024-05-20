@@ -96,7 +96,7 @@ TextureImporter:
       213: 193452474318508573
     second: soul_fire_0_30
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -201,6 +201,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -876,7 +902,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      soul_fire_0_0: -5084069858160716039
+      soul_fire_0_1: -8100559069351926303
+      soul_fire_0_10: -4527265883506079922
+      soul_fire_0_11: -8135816279494504476
+      soul_fire_0_12: 1181063784088841229
+      soul_fire_0_13: -8552523882298114503
+      soul_fire_0_14: 2476070015844544585
+      soul_fire_0_15: -2952387279814111543
+      soul_fire_0_16: -3457746956292726263
+      soul_fire_0_17: 265361826777370496
+      soul_fire_0_18: -4441062002148817430
+      soul_fire_0_19: 2041702242902933717
+      soul_fire_0_2: 1795489909910444660
+      soul_fire_0_20: 2863868296422442810
+      soul_fire_0_21: 8941981022732113208
+      soul_fire_0_22: -6416284683612238666
+      soul_fire_0_23: 7295656360924616918
+      soul_fire_0_24: 1080206575949142754
+      soul_fire_0_25: -7983051361606703949
+      soul_fire_0_26: -7521624648984831699
+      soul_fire_0_27: -5543977077254776961
+      soul_fire_0_28: -1211426917939522251
+      soul_fire_0_29: -747985393732269486
+      soul_fire_0_3: 3976314306464921569
+      soul_fire_0_30: 193452474318508573
+      soul_fire_0_4: 200811008484137268
+      soul_fire_0_5: 200173195052163833
+      soul_fire_0_6: 6458566113156288520
+      soul_fire_0_7: -9000509451730207255
+      soul_fire_0_8: -5215713240412275985
+      soul_fire_0_9: 2441432799358976221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

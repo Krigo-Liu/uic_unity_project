@@ -19,28 +19,28 @@ public class MobileUICtrl : MonoBehaviour
         
     }
 
-    public void MobileMoveLeft()
-    {
-        playerCtrl.MobileMoveLeft();
-    }
+    //public void MobileMoveLeft()
+    //{
+    //    playerCtrl.MobileMoveLeft();
+    //}
 
-    public void MobileMoveRight()
-    {
-        playerCtrl.MobileMoveRight();
-    }
+    //public void MobileMoveRight()
+    //{
+    //    playerCtrl.MobileMoveRight();
+    //}
 
-    public void MobileStop()
-    {
-        playerCtrl.MobilesStop();
-    }
+    //public void MobileStop()
+    //{
+    //    playerCtrl.MobilesStop();
+    //}
 
-    public void MobileFire()
-    {
-        playerCtrl.FireBullet();
-    }
+    //public void MobileFire()
+    //{
+    //    playerCtrl.FireBullet();
+    //}
 
-    public void MobileJump()
-    {
-        playerCtrl.Jump();
-    }
+    //public void MobileJump()
+    //{
+    //    playerCtrl.Jump();
+    //}
 }

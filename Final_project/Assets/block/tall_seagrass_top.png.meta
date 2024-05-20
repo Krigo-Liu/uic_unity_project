@@ -54,7 +54,7 @@ TextureImporter:
       213: 4944838018245365404
     second: tall_seagrass_top_16
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -159,6 +159,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -540,7 +566,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tall_seagrass_top_0: -8253168493794008338
+      tall_seagrass_top_1: 6883685648616971205
+      tall_seagrass_top_10: -6717610915021655333
+      tall_seagrass_top_11: -2036071762430003344
+      tall_seagrass_top_12: -8788631438369661222
+      tall_seagrass_top_13: -7365365355123132127
+      tall_seagrass_top_14: -5881507263356607611
+      tall_seagrass_top_15: -1792234002534175950
+      tall_seagrass_top_16: 4944838018245365404
+      tall_seagrass_top_2: 5640706979780241956
+      tall_seagrass_top_3: -3275497015032728518
+      tall_seagrass_top_4: 2848344725359475698
+      tall_seagrass_top_5: 205923437037684566
+      tall_seagrass_top_6: 4820495306443914806
+      tall_seagrass_top_7: 6760008256331627886
+      tall_seagrass_top_8: -7288443296614806293
+      tall_seagrass_top_9: -956933544345480668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

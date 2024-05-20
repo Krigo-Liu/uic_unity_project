@@ -48,7 +48,7 @@ TextureImporter:
       213: -8722604435561304985
     second: seagrass1_14
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -153,6 +153,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -492,7 +518,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seagrass1_0: 7605790077657236609
+      seagrass1_1: -1265069624467829787
+      seagrass1_10: 966034519800056924
+      seagrass1_11: -5097838460721159977
+      seagrass1_12: 700572072842276971
+      seagrass1_13: 4673328913268927185
+      seagrass1_14: -8722604435561304985
+      seagrass1_2: -1952375133112607584
+      seagrass1_3: 1134696995495144448
+      seagrass1_4: 5419640515197665893
+      seagrass1_5: -9036791755012899500
+      seagrass1_6: 747566305112743777
+      seagrass1_7: -5193101978169323364
+      seagrass1_8: -2155401326132224926
+      seagrass1_9: -7806037817595406741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

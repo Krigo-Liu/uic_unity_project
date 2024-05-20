@@ -39,7 +39,7 @@ TextureImporter:
       213: -3250403078327352707
     second: cyan_glazed_terracotta_e_11
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,6 +144,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -420,7 +446,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cyan_glazed_terracotta_e_0: -8722316471816663445
+      cyan_glazed_terracotta_e_1: 6781184229692892865
+      cyan_glazed_terracotta_e_10: -5492007082635004703
+      cyan_glazed_terracotta_e_11: -3250403078327352707
+      cyan_glazed_terracotta_e_2: -2897606830867039386
+      cyan_glazed_terracotta_e_3: 4151569452409570312
+      cyan_glazed_terracotta_e_4: -4253710372955048772
+      cyan_glazed_terracotta_e_5: 4542106471978678943
+      cyan_glazed_terracotta_e_6: 3049781492748997726
+      cyan_glazed_terracotta_e_7: -861878706625609411
+      cyan_glazed_terracotta_e_8: -3187313120038056026
+      cyan_glazed_terracotta_e_9: 167228814166054327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -48,7 +48,7 @@ TextureImporter:
       213: 9208848448743336772
     second: kelp_14
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -153,6 +153,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -492,7 +518,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kelp_0: -6988967113396324274
+      kelp_1: 4988529989552421376
+      kelp_10: 1282794966460207328
+      kelp_11: 5461308369626913391
+      kelp_12: 8419963119758611833
+      kelp_13: -2982976903185798035
+      kelp_14: 9208848448743336772
+      kelp_2: -1958227101047318561
+      kelp_3: -9096268988309086546
+      kelp_4: 3309743699672678216
+      kelp_5: -5550252181414454037
+      kelp_6: 2864525926137349381
+      kelp_7: 213186600068263759
+      kelp_8: 1315270473749617096
+      kelp_9: 1892903840768046455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

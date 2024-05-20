@@ -96,7 +96,7 @@ TextureImporter:
       213: -4613717156450649768
     second: soul_campfire_fire_30
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -201,6 +201,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -876,7 +902,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      soul_campfire_fire_0: -4509578475035688865
+      soul_campfire_fire_1: 285530755143726321
+      soul_campfire_fire_10: -6756651286748547280
+      soul_campfire_fire_11: -828277325865280811
+      soul_campfire_fire_12: 2546463779809534699
+      soul_campfire_fire_13: 7609895973605886539
+      soul_campfire_fire_14: 6556968885456068995
+      soul_campfire_fire_15: 6533454286873075965
+      soul_campfire_fire_16: -1991453018990878560
+      soul_campfire_fire_17: -3246894742697344705
+      soul_campfire_fire_18: -1196548588883512323
+      soul_campfire_fire_19: -8685092581089060343
+      soul_campfire_fire_2: 2823173872245111722
+      soul_campfire_fire_20: 3568659604788052099
+      soul_campfire_fire_21: 7873996319656338024
+      soul_campfire_fire_22: -2508866196506042607
+      soul_campfire_fire_23: -4954633428175942267
+      soul_campfire_fire_24: 4716207078485593597
+      soul_campfire_fire_25: -323212496197251248
+      soul_campfire_fire_26: -75562304457915403
+      soul_campfire_fire_27: -6267057312744909403
+      soul_campfire_fire_28: 5789994950151454137
+      soul_campfire_fire_29: 1430719555600267792
+      soul_campfire_fire_3: 7067795721036149774
+      soul_campfire_fire_30: -4613717156450649768
+      soul_campfire_fire_4: -1259838550827884050
+      soul_campfire_fire_5: 3438857835842875842
+      soul_campfire_fire_6: -9005457110638049388
+      soul_campfire_fire_7: -8970745766044251072
+      soul_campfire_fire_8: -2689755297414511767
+      soul_campfire_fire_9: 4665638900855494525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

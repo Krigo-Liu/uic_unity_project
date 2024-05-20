@@ -23,7 +23,7 @@ public class FeetCtrl : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            playerCtrl.jumpTimes = 0;
+            //playerCtrl.jumpTimes = 0;
             player.transform.parent = collision.gameObject.transform;
         }
     }

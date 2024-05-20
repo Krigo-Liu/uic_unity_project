@@ -81,7 +81,7 @@ TextureImporter:
       213: 4382735453304943048
     second: warped_roots2_25
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -186,6 +186,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -756,7 +782,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      warped_roots2_0: -57530561230407314
+      warped_roots2_1: 1990773566400535754
+      warped_roots2_10: 4070359484508201528
+      warped_roots2_11: 4861683103460115180
+      warped_roots2_12: 3717539282589962314
+      warped_roots2_13: -7645794941085528329
+      warped_roots2_14: -3855279884260793905
+      warped_roots2_15: 2576125315357957800
+      warped_roots2_16: -148680473547399098
+      warped_roots2_17: 688780165305832025
+      warped_roots2_18: -5745488684279912874
+      warped_roots2_19: 718432140591684400
+      warped_roots2_2: -4989157125959440318
+      warped_roots2_20: 6236233086839933131
+      warped_roots2_21: -9184711315255009490
+      warped_roots2_22: -2216580585000743562
+      warped_roots2_23: -6134007857074528449
+      warped_roots2_24: 7199090342854275574
+      warped_roots2_25: 4382735453304943048
+      warped_roots2_3: 1979204502252569102
+      warped_roots2_4: -2880164488283131480
+      warped_roots2_5: -3072601560025536156
+      warped_roots2_6: 8331831000168911497
+      warped_roots2_7: 2886895991320175116
+      warped_roots2_8: -5898519570498422000
+      warped_roots2_9: 7583069887546585514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

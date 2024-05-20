@@ -96,7 +96,7 @@ TextureImporter:
       213: -4755225710599060933
     second: campfire_fire_30
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -201,6 +201,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -876,7 +902,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      campfire_fire_0: 804276789042101799
+      campfire_fire_1: -537522778017648513
+      campfire_fire_10: 5540556637642999178
+      campfire_fire_11: -4820122783658229316
+      campfire_fire_12: -6173924063461989102
+      campfire_fire_13: -357706759897990827
+      campfire_fire_14: -1877916973470872082
+      campfire_fire_15: 386819785060662095
+      campfire_fire_16: 6928435447238327166
+      campfire_fire_17: 1800511028580489272
+      campfire_fire_18: -963849397499941082
+      campfire_fire_19: 7305741651235180546
+      campfire_fire_2: -1257631505843307427
+      campfire_fire_20: -5764991393157311573
+      campfire_fire_21: 1823554803542924771
+      campfire_fire_22: -2657940082080228799
+      campfire_fire_23: -3765867717194874571
+      campfire_fire_24: 5965510393610271867
+      campfire_fire_25: 1160537973063182812
+      campfire_fire_26: 3260050525346099676
+      campfire_fire_27: -8554592136069688802
+      campfire_fire_28: 1217861067516894428
+      campfire_fire_29: -7480936201840331328
+      campfire_fire_3: -2127098406455215612
+      campfire_fire_30: -4755225710599060933
+      campfire_fire_4: 6735391971109251449
+      campfire_fire_5: 7674381393328989850
+      campfire_fire_6: -2747985385253987327
+      campfire_fire_7: -5575153551791006882
+      campfire_fire_8: 8831115873660464254
+      campfire_fire_9: 4672471455804659287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
