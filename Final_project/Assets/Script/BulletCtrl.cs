@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class BulletCtrl : MonoBehaviour
 {
@@ -20,5 +22,19 @@ public class BulletCtrl : MonoBehaviour
         //rb.velocity = new Vector2(playerSpeed*100, rb.velocity.y);
         rb.velocity = velocity;
         
+    }
+
+    void OnCollisionStay2D(Collision2D cube)
+    {
+
+
+        if (cube.gameObject.CompareTag("Ground"))
+        {
+            Debug.Log("Boom");
+            
+            Destroy(cube.gameObject, 5);
+
+        }
+
     }
 }

@@ -12,7 +12,6 @@ public class PlayerCtrl : MonoBehaviour
     SpriteRenderer sr;
     Animator anim;
     public float speedBoost = 3; 
-    //public float jumpForce = 100;
 
     public GameObject leftBullet;
     public Transform leftSpawnPos;
@@ -20,16 +19,10 @@ public class PlayerCtrl : MonoBehaviour
     public GameObject rightBullet;
     public Transform rightSpawnPos;
 
-    //public Transform parent;
-
-    //public int jumpTimes = 0;
-    //bool fire_Activated = true;
-
     public bool leftPressed, rightPressed;
     public int dig = 0;
 
-    //public int T = 2;
-   // Start is called before the first frame update
+    public int boomNumber = 0; 
    void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
@@ -51,18 +44,6 @@ public class PlayerCtrl : MonoBehaviour
             StopMoving();
         }
 
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //    if (jumpTimes <2)
-        //    {
-        //        //anim.SetInteger("state", 2);
-        //        AudioCtrl.instance.PlayerJump(transform.position);
-        //        Jump();
-        //        jumpTimes++;
-        //    }
-            
-        //}
-
         if (Input.GetButtonDown("Fire1"))
         {
             //anim.SetInteger("state", 5);
@@ -78,10 +59,23 @@ public class PlayerCtrl : MonoBehaviour
             dig = 2;
         }
 
-        //if (rb.velocity.y < -1)
-        //{
-        //    anim.SetInteger("state", 3);
-        //}
+        if (Input.GetButtonDown("Fire3") && sr.flipX == true)
+        {
+            if (boomNumber > 0)
+            {
+                Instantiate(leftBullet, leftSpawnPos.position, Quaternion.identity);
+                boomNumber -= 1;
+            }
+        }
+        else if(Input.GetButtonDown("Fire3") && sr.flipX == false)
+        {
+            
+            if (boomNumber > 0)
+            {
+                Instantiate(rightBullet, rightSpawnPos.position, Quaternion.identity);
+                UseBoom();
+            }
+        }
 
         if (leftPressed)
         {
@@ -129,20 +123,21 @@ public class PlayerCtrl : MonoBehaviour
     }
  
 
-    public void DigDownSoil()
+    public void DigDownSoil(Collision2D cube)
     {
-        //if (other.gameObject.CompareTag("Ground"))
-        //{
-        //    Destory(other.gameObject);
 
-        //    Debug.Log("on the ground");
-        //}
         anim.SetInteger("state", 3);
-        dig = 1;
+        dig = 2;
+        //if (cube.gameObject.CompareTag("Ground"))
+        //{
+        //    Debug.Log("Have trigger down and tag compare");
+        //    anim.SetInteger("state", 3);
+        //    Destroy(cube.gameObject);
+        //}
 
     }
 
-    public void DigHorizantalSoil()
+    public void DigHorizantalSoil(Collision2D cube)
     {
         //if (other.gameObject.CompareTag("Ground"))
         //{
@@ -157,16 +152,16 @@ public class PlayerCtrl : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D cube)
     {
-        //if (cube.gameObject.CompareTag("coin"))
-        //{
-        //    Destroy(cube.gameObject);
-        //    SFXCtrl.instance.ShowCoinParticle(cube.gameObject.transform.position);
-        //    GameCtrl.instance.updateCoin();
-        //    GameCtrl.instance.updateScore(10);
-        //    AudioCtrl.instance.CoinPick(transform.position);
-        //    //fire_activated = true;
+        if (cube.gameObject.CompareTag("Boom"))
+        {
+            Destroy(cube.gameObject);
+            //SFXCtrl.instance.ShowCoinParticle(cube.gameObject.transform.position);
+            GameCtrl.instance.updateBoom();
+            boomNumber += 1;
+            //AudioCtrl.instance.CoinPick(transform.position);
+            //fire_activated = true;
 
-        //}
+        }
         
         if (cube.gameObject.CompareTag("Ground") && dig == 1)
         {
@@ -177,30 +172,37 @@ public class PlayerCtrl : MonoBehaviour
             {
                 dig = 0;
             }
-            //SFXCtrl.instance.ShowExplosion(cube.gameObject.transform.position);
-            //fire_Activated = true;
+
             
         }
 
     }
 
-    void OnCollisionStay2D(Collision2D cube)
+    void UseBoom()
     {
-
-
-        if (cube.gameObject.CompareTag("Ground") && dig == 2)
-        {
-            Debug.Log("Have trigger down and tag compare");
-
-            Destroy(cube.gameObject);
-            if (dig == 2)
-            {
-                dig = 0;
-            }
-
-        }
-
+        GameCtrl.instance.deleteBoom();
+        boomNumber -= 1;
     }
+
+    //void OnCollisionStay2D(Collision2D cube)
+    //{
+
+
+    //    if (cube.gameObject.CompareTag("Ground") && dig == 2)
+    //    {
+    //        Debug.Log("Have trigger down and tag compare");
+
+    //        Destroy(cube.gameObject);
+    //        if (dig == 2)
+    //        {
+    //            dig = 0;
+    //        }
+
+    //    }
+
+    //}
+
+  
     //public void MobileMoveLeft()
     //{
     //    leftPressed = true;

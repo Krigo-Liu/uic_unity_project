@@ -13,7 +13,7 @@ public class GameCtrl : MonoBehaviour
     int coinCnt =0;
     int score = 0;
     int remaindTime;
-    int Totaltime = 100;
+    //int Totaltime = 100;
 
     private void Awake()
     {
@@ -54,9 +54,15 @@ public class GameCtrl : MonoBehaviour
     }
 
 
-    public void updateCoin()
+    public void updateBoom()
     {
         coinCnt++;
+        txtCoinCount.text = "x " + coinCnt;
+    }
+
+    public void deleteBoom()
+    {
+        coinCnt--;
         txtCoinCount.text = "x " + coinCnt;
     }
 
