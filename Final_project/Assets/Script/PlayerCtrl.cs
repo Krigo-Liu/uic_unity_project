@@ -123,7 +123,7 @@ public class PlayerCtrl : MonoBehaviour
     }
  
 
-    public void DigDownSoil(Collision2D cube)
+    public void DigDownSoil()
     {
 
         anim.SetInteger("state", 3);
@@ -137,7 +137,7 @@ public class PlayerCtrl : MonoBehaviour
 
     }
 
-    public void DigHorizantalSoil(Collision2D cube)
+    public void DigHorizantalSoil()
     {
         //if (other.gameObject.CompareTag("Ground"))
         //{
