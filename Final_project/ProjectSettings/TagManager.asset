@@ -13,6 +13,7 @@ TagManager:
   - Item_wood
   - Item_coal
   - Item_red_stone
+  - Monster
   layers:
   - Default
   - TransparentFX
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1004990135
+    locked: 0
+  - name: Player
+    uniqueID: 478757535
     locked: 0

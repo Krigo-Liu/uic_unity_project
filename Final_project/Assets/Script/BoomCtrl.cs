@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class BoomCtrl : MonoBehaviour
 {
@@ -27,8 +29,20 @@ public class BoomCtrl : MonoBehaviour
 
             // 销毁地面对象
             Destroy(other.gameObject);
-            Debug.Log("Destroy");
+            //Debug.Log("Destroy");
+
+        }
+
+        if (other.gameObject.CompareTag("Monster"))
+        {
+
+            // 销毁地面对象
+            Destroy(other.gameObject);
+            SceneManager.LoadScene("GameWin");
+            //Debug.Log("Destroy");
 
         }
     }
+
+
 }

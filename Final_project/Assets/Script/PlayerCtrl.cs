@@ -174,7 +174,7 @@ public class PlayerCtrl : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Item_wood"))
+        if (other.gameObject.CompareTag("Tree"))
         {
             CraftingManager.instance.UpdateItem4();
             Destroy(other.gameObject);

@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class SFXCtrl : MonoBehaviour
 {
-    public GameObject sfx_coin_pickup;
-    public GameObject sfx_explosion;
+    public GameObject sfx_boom;
     public static SFXCtrl instance;
 
     void Awake()
@@ -25,12 +24,9 @@ public class SFXCtrl : MonoBehaviour
         
     }
 
-    public void ShowCoinParticle(Vector3 pos)
+    public void ShowBoom(Vector3 pos)
     {
-        Instantiate(sfx_coin_pickup, pos, Quaternion.identity);
+        Instantiate(sfx_boom, pos, Quaternion.identity);
     }
-    public void ShowExplosion(Vector3 pos)
-    {
-        Instantiate(sfx_explosion, pos, Quaternion.identity);
-    }
+
 }

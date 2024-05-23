@@ -10,13 +10,7 @@ public class AudioCtrl : MonoBehaviour
     public GameObject bgMusic;
     //private bool bgMusicOn;
 
-    [Header("Part1")]
-    public AudioClip playerJump;
-    public AudioClip coinPickup;
 
-    [Header("Part2")]
-    public AudioClip materSplash;
-    public AudioClip keyFound;
 
 
     void Start()
@@ -35,12 +29,11 @@ public class AudioCtrl : MonoBehaviour
 
     public void PlayerJump(Vector3 playerPos)
     {
-        AudioSource.PlayClipAtPoint(playerJump, playerPos);
+
     }
 
     public void CoinPick(Vector3 playerPos)
     {
-        AudioSource.PlayClipAtPoint(coinPickup, playerPos);
     }
 
     public void MuteBG()
