@@ -1,40 +1,78 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using Unity.VisualScripting;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
-
 
 public class PlayerCtrl : MonoBehaviour
 {
-    Rigidbody2D rb;//declare a rigidbody
+    Rigidbody2D rb;
     SpriteRenderer sr;
     Animator anim;
-    public float speedBoost = 3; 
+    public float speedBoost = 3;
+    public bool leftPressed, rightPressed;
+    private bool isDigging = false;
+
+    // 定义三个检测器
+    public Collider2D leftDetector;
+    public Collider2D rightDetector;
+    public Collider2D downDetector;
 
     public GameObject leftBullet;
-    public Transform leftSpawnPos;
-
     public GameObject rightBullet;
+    public Transform leftSpawnPos;
     public Transform rightSpawnPos;
 
-    public bool leftPressed, rightPressed;
-    public int dig = 0;
 
-    public int boomNumber = 0; 
-   void Start()
+    public static PlayerCtrl instance; 
+    // 矿块类型与延时的映射关系
+    public Dictionary<string, float> mineBlockDelays = new Dictionary<string, float>
+    {
+        { "Ground", 0.1f },
+        { "Tree", 0.2f },
+        { "Coal", 0.3f },
+        { "Iron", 0.4f },
+        { "Red", 0.5f },
+    };
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
+    void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         sr = this.GetComponent<SpriteRenderer>();
         anim = this.GetComponent<Animator>();
+        UpdateMineBlockDelays();
     }
 
-    // Update is called once per frame
+    void UpdateMineBlockDelays()
+    {
+        if (Equip.Instance.WoodTimes >= 0 || Equip.Instance.IronTimes >= 0)
+        {
+            mineBlockDelays["Ground"] = Equip.Instance.GetModifiedDelay("Ground");
+            mineBlockDelays["Tree"] = Equip.Instance.GetModifiedDelay("Tree");
+            mineBlockDelays["Coal"] = Equip.Instance.GetModifiedDelay("Coal");
+            mineBlockDelays["Iron"] = Equip.Instance.GetModifiedDelay("Iron");
+            mineBlockDelays["Red"] = Equip.Instance.GetModifiedDelay("Red");
+            Debug.Log("Pickaxe selected.");
+        }
+        else
+        {
+            mineBlockDelays["Ground"] = 0.1f;
+            mineBlockDelays["Tree"] = 0.2f;
+            mineBlockDelays["Coal"] = 0.3f;
+            mineBlockDelays["Iron"] = 0.4f;
+            mineBlockDelays["Red"] = 0.5f;
+        }
+    }
+
     void Update()
     {
-        float playerSpeed = Input.GetAxisRaw("Horizontal");
-        playerSpeed = playerSpeed * speedBoost;
+        float playerSpeed = Input.GetAxisRaw("Horizontal") * speedBoost;
         if (playerSpeed != 0)
         {
             MoveHorizontal(playerSpeed);
@@ -46,178 +84,134 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            //anim.SetInteger("state", 5);
             DigHorizantalSoil();
-            dig = 1;
-            
         }
 
         if (Input.GetButtonDown("Fire2"))
         {
-            //anim.SetInteger("state", 3);
             DigDownSoil();
-            dig = 2;
         }
 
-        if (Input.GetButtonDown("Fire3") && sr.flipX == true)
+        if (Input.GetButtonDown("Fire3")&& CraftingManager.instance.tool3Count_eq > 0)
         {
-            if (boomNumber > 0)
-            {
-                Instantiate(leftBullet, leftSpawnPos.position, Quaternion.identity);
-                boomNumber -= 1;
-            }
-        }
-        else if(Input.GetButtonDown("Fire3") && sr.flipX == false)
-        {
-            
-            if (boomNumber > 0)
-            {
-                Instantiate(rightBullet, rightSpawnPos.position, Quaternion.identity);
-                UseBoom();
-            }
+            SetBoom();
+            CraftingManager.instance.UseBoom();
+            Debug.Log("Boom -1.");
         }
 
         if (leftPressed)
         {
-            
             MoveHorizontal(-speedBoost);
-            
         }
 
         if (rightPressed)
         {
-            
             MoveHorizontal(speedBoost);
-            
         }
-
     }
+
     void MoveHorizontal(float playerSpeed)
     {
         rb.velocity = new Vector2(playerSpeed, rb.velocity.y);
-        if (playerSpeed < 0)
+        if(playerSpeed < 0)
         {
-            
             sr.flipX = true;
-            
-            anim.SetInteger("state", 4);
         }
         else
         {
-            
             sr.flipX = false;
-            
-            anim.SetInteger("state", 4);
         }
-
-
-
+        anim.SetInteger("state", 4);
     }
+
     void StopMoving()
     {
-
         rb.velocity = new Vector2(0, rb.velocity.y);
-        
         anim.SetInteger("state", 2);
-        
     }
- 
 
     public void DigDownSoil()
     {
-
         anim.SetInteger("state", 3);
-        dig = 2;
-        //if (cube.gameObject.CompareTag("Ground"))
-        //{
-        //    Debug.Log("Have trigger down and tag compare");
-        //    anim.SetInteger("state", 3);
-        //    Destroy(cube.gameObject);
-        //}
-
+        StartCoroutine(DiggingCoroutine(downDetector));
     }
 
     public void DigHorizantalSoil()
     {
-        //if (other.gameObject.CompareTag("Ground"))
-        //{
-        //    Destory(other.gameObject);
-
-        //    Debug.Log("on the ground");
-        //}
         anim.SetInteger("state", 5);
-
+        Collider2D detector = sr.flipX ? leftDetector : rightDetector;
+        StartCoroutine(DiggingCoroutine(detector));
     }
 
-
-    void OnTriggerStay2D(Collider2D cube)
+    private IEnumerator DiggingCoroutine(Collider2D detector)
     {
-        if (cube.gameObject.CompareTag("Boom"))
-        {
-            Destroy(cube.gameObject);
-            //SFXCtrl.instance.ShowCoinParticle(cube.gameObject.transform.position);
-            GameCtrl.instance.updateBoom();
-            boomNumber += 1;
-            //AudioCtrl.instance.CoinPick(transform.position);
-            //fire_activated = true;
+        isDigging = true;
+        yield return new WaitForSeconds(0.1f); // Make sure action with the animition
 
-        }
-        
-        if (cube.gameObject.CompareTag("Ground") && dig == 1)
+        Collider2D[] hits = Physics2D.OverlapCircleAll(detector.transform.position, 0.1f);
+        foreach (Collider2D hit in hits)
         {
-            Debug.Log("Have trigger horizantal and tag compare");
             
-            Destroy(cube.gameObject);
-            if(dig == 1)
-            {
-                dig = 0;
-            }
-
+            
+             // 获取矿块类型
+             MineBlock mineBlock = hit.GetComponent<MineBlock>();
+             if (mineBlock != null && mineBlockDelays.TryGetValue(mineBlock.blockType, out float delay))
+             {
+                 // 延时销毁矿块
+                 StartCoroutine(DestroyWithDelay(hit.gameObject, delay));
+             }
             
         }
 
+        isDigging = false;
     }
 
-    void UseBoom()
+    private IEnumerator DestroyWithDelay(GameObject mineBlock, float delay)
     {
-        GameCtrl.instance.deleteBoom();
-        boomNumber -= 1;
+        yield return new WaitForSeconds(delay);
+        Destroy(mineBlock);
     }
 
-    //void OnCollisionStay2D(Collision2D cube)
-    //{
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Item_wood"))
+        {
+            CraftingManager.instance.UpdateItem4();
+            Destroy(other.gameObject);
+            Equip.Instance.digafter();
+        }
 
+        if (other.gameObject.CompareTag("Item_Iron"))
+        {
+            CraftingManager.instance.UpdateItem3();
+            Destroy(other.gameObject);
+            Equip.Instance.digafter();
+        }
 
-    //    if (cube.gameObject.CompareTag("Ground") && dig == 2)
-    //    {
-    //        Debug.Log("Have trigger down and tag compare");
+        if (other.gameObject.CompareTag("Item_coal"))
+        {
+            CraftingManager.instance.UpdateItem2();
+            Destroy(other.gameObject);
+            Equip.Instance.digafter();
+        }
 
-    //        Destroy(cube.gameObject);
-    //        if (dig == 2)
-    //        {
-    //            dig = 0;
-    //        }
+        if (other.gameObject.CompareTag("Item_red_stone"))
+        {
+            CraftingManager.instance.UpdateItem1();
+            Destroy(other.gameObject);
+            Equip.Instance.digafter();
+        }
+    }
 
-    //    }
-
-    //}
-
-  
-    //public void MobileMoveLeft()
-    //{
-    //    leftPressed = true;
-    //}
-
-    //public void MobileMoveRight()
-    //{
-    //    rightPressed = true;
-    //}
-
-    //public void MobilesStop()
-    //{
-    //    leftPressed = false;
-    //    rightPressed = false;
-    //    StopMoving();
-    //}
-
+    public void SetBoom()
+    {
+        if (sr.flipX)
+        {
+            Instantiate(leftBullet, leftSpawnPos.position, Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(rightBullet, rightSpawnPos.position, Quaternion.identity);
+        }
+    }
 }

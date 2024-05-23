@@ -8,13 +8,13 @@ public class GarbageCollector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -22,7 +22,7 @@ public class GarbageCollector : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.SetActive(false);
-            Invoke("restartLevel", 3);// Invoke : to call a function after a delay
+            Invoke("RestartLevel", 3); // µ÷ÓÃÑÓ³Ùº¯Êý£¬ÑÓ³Ù3Ãë
         }
         else
         {
@@ -30,8 +30,8 @@ public class GarbageCollector : MonoBehaviour
         }
     }
 
-        void restartLevel()
-        {
-            SceneManager.LoadScene("GamePlay_desert");
+    void RestartLevel()
+    {
+        SceneManager.LoadScene("Game_1");
     }
 }

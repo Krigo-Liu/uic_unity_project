@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Miner_DeathAnimation_01_Frame_0
     originalName: 
-    pivot: {x: 0.42857146, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 22
+      x: 4
       y: 4
-      width: 7
-      height: 12
+      width: 16
+      height: 16
     spriteID: ae3111e20eeea724c92c5c0390d16183
     spriteBone: []
     spriteOutline: []
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 22, y: 4}
+    uvTransform: {x: 4, y: 4}
   - name: Miner_DeathAnimation_01_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -149,9 +149,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 10
-      height: 9
+      y: 28
+      width: 16
+      height: 16
     spriteID: 9ac981c064ffeb54783bcbea35edcf26
     spriteBone: []
     spriteOutline: []
@@ -160,18 +160,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 28}
   - name: Miner_DeathAnimation_01_Frame_2
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 21
-      width: 9
-      height: 7
+      y: 52
+      width: 16
+      height: 16
     spriteID: 061b0fb1b3d4cbd4997ad36ca942e3e7
     spriteBone: []
     spriteOutline: []
@@ -180,18 +180,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 21}
+    uvTransform: {x: 4, y: 52}
   - name: Miner_DeathAnimation_01_Frame_3
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 37
-      y: 4
-      width: 9
-      height: 5
+      x: 4
+      y: 76
+      width: 16
+      height: 16
     spriteID: 380337b6ee4a931469f100e4eee6123c
     spriteBone: []
     spriteOutline: []
@@ -200,18 +200,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 37, y: 4}
+    uvTransform: {x: 4, y: 76}
   - name: Miner_DeathAnimation_01_Frame_4
     originalName: 
-    pivot: {x: 0.4, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 37
-      y: 17
-      width: 10
-      height: 3
+      x: 4
+      y: 100
+      width: 16
+      height: 16
     spriteID: 8f614edb11831f945b46a9147a88238c
     spriteBone: []
     spriteOutline: []
@@ -220,7 +220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 37, y: 17}
+    uvTransform: {x: 4, y: 100}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -233,42 +233,42 @@ ScriptedImporter:
     - name: Miner_DeathAnimation_01_Frame_0
       frameIndex: 0
       cellRect:
-        x: 5
+        x: 0
         y: 0
-        width: 7
-        height: 12
+        width: 16
+        height: 16
       spriteId: ae3111e20eeea724c92c5c0390d16183
     - name: Miner_DeathAnimation_01_Frame_1
       frameIndex: 1
       cellRect:
-        x: 3
+        x: 0
         y: 0
-        width: 10
-        height: 9
+        width: 16
+        height: 16
       spriteId: 9ac981c064ffeb54783bcbea35edcf26
     - name: Miner_DeathAnimation_01_Frame_2
       frameIndex: 2
       cellRect:
-        x: 4
+        x: 0
         y: 0
-        width: 9
-        height: 7
+        width: 16
+        height: 16
       spriteId: 061b0fb1b3d4cbd4997ad36ca942e3e7
     - name: Miner_DeathAnimation_01_Frame_3
       frameIndex: 3
       cellRect:
-        x: 4
+        x: 0
         y: 0
-        width: 9
-        height: 5
+        width: 16
+        height: 16
       spriteId: 380337b6ee4a931469f100e4eee6123c
     - name: Miner_DeathAnimation_01_Frame_4
       frameIndex: 4
       cellRect:
-        x: 4
+        x: 0
         y: 0
-        width: 10
-        height: 3
+        width: 16
+        height: 16
       spriteId: 8f614edb11831f945b46a9147a88238c
     linkedCells: []
     parentIndex: -1

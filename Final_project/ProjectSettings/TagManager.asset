@@ -5,8 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Boom
-  - Boom_bullet
+  - Red
+  - Tree
+  - Iron
+  - Coal
+  - Item_Iron
+  - Item_wood
+  - Item_coal
+  - Item_red_stone
   layers:
   - Default
   - TransparentFX
@@ -46,7 +52,4 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1004990135
-    locked: 0
-  - name: out
-    uniqueID: 1205776841
     locked: 0
